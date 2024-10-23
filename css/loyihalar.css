@@ -1,0 +1,121 @@
+.buttons {
+  display: flex;
+  gap: 288px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.button_1 button {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 44px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px;
+  background-color: #1b1b1b;
+  border: 1px solid #ffffff40;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button_2 {
+  display: flex;
+  gap: 20px;
+}
+
+.button_2 button {
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px;
+  background: #1b1b1b;
+  border: 1px solid #ffffff40;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  img {
+  }
+}
+
+.btn_hover:hover {
+  border: 1px solid #ffffff;
+  background: #272727;
+  opacity: 1;
+}
+
+.blur_btn {
+  opacity: 0.5;
+}
+
+.collect_info {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 245px;
+
+  h4 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+
+.collect_info_circle {
+  background-color: #c5221f;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+}
+
+.collect_o_c {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+
+.collect_hesh_tag {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #39965f;
+  width: 444px;
+}
+
+.collect_img:hover {
+  width: 444px;
+  height: 240px;
+  padding: 12px;
+  border-radius: 12px;
+  filter: blur(4px); /* Faqat rasmga blur qo'llanadi */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.collect_img:hover .collect_hesh_tag {
+  color: #1b1b1b;
+}
